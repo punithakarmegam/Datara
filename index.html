@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DataNest — AI Analytics that turns data into decisions</title>
+  <meta name="description" content="Datara uses AI-driven analytics to automate insights, forecasting, and decision support for modern teams." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Datara — AI Analytics" />
+  <meta property="og:description" content="Automated insights, forecasts, and decision support." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Datara",
+    "url":"https://example.com",
+    "logo":"https://example.com/logo.png",
+    "sameAs":["https://www.linkedin.com/company/yourcompany"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#hero">
+        <img src="assets/images/logo.png" alt="Datara logo" class="logo" />
+        <span>Datara</span>
+      </a>
+      <button class="btn ghost" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <button class="btn menu" id="menuBtn" aria-expanded="false" aria-controls="menuList">☰</button>
+      <ul id="menuList" class="menu-list">
+        <li><a href="#product">Product</a></li>
+        <li><a href="#usecases">Use Cases</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a class="btn small primary" href="#contact">Get a demo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="hero">
+      <p class="eyebrow">AI Analytics Platform</p>
+      <h1>From raw data to <span class="accent">ready decisions</span> automatically.</h1>
+      <p class="lead">Datara ingests your data, detects what matters, and explains why with forecasts, anomalies, and plain-language insights teams actually use.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Book a demo</a>
+        <a class="btn secondary" href="#product">See how it works</a>
+      </div>
+      <ul class="badges">
+        <li>No-code setup</li>
+        <li>Explainable AI</li>
+        <li>Security first</li>
+      </ul>
+    </section>
+
+    <!-- TRUST -->
+    <!-- <section class="container" id="trust">
+      <div class="trust">
+        <p class="muted">Trusted by product, ops, and finance teams</p>
+        <div class="logo-row">
+          <span class="logo">ACME</span>
+          <span class="logo">NOVA</span>
+          <span class="logo">MERIDIAN</span>
+          <span class="logo">POLAR</span>
+          <span class="logo">ATLAS</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- FEATURES -->
+    <section class="container" id="features">
+      <h2>What you get</h2>
+      <div class="cards three">
+        <article class="card">
+          <h3>Unified data ingestion</h3>
+          <p>Connect warehouses (BigQuery, Snowflake), spreadsheets, or APIs. Auto-schema and freshness checks built in.</p>
+        </article>
+        <article class="card">
+          <h3>Automated insights</h3>
+          <p>Detect anomalies, drivers, seasonality, and cohorts. Natural-language summaries with links to the evidence.</p>
+        </article>
+        <article class="card">
+          <h3>Forecasts you can trust</h3>
+          <p>Classical + ML ensembles with confidence intervals, backtests, and guardrails to avoid overfitting.</p>
+        </article>
+      </div>
+      <div class="cards three">
+        <article class="card">
+          <h3>Explainability</h3>
+          <p>Feature importance, SHAP-style attributions, and “what changed?” diffs for every alert.</p>
+        </article>
+        <article class="card">
+          <h3>Collaborative workflows</h3>
+          <p>Comment, subscribe, and push insights to Slack/Email. Assign owners and track outcomes.</p>
+        </article>
+        <article class="card">
+          <h3>Secure by default</h3>
+          <p>Row-level access, encryption at rest/in transit, SSO/SAML, and audit trails.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="container" id="product">
+      <h2>How it works</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>1. Connect</h3>
+          <p>Point to your sources. We set sane defaults for freshness, joins, and PII redaction.</p>
+        </div>
+        <div class="card">
+          <h3>2. Model</h3>
+          <p>Pick KPIs. Our engine auto-tests feature sets, seasonality, and change points to pick robust models.</p>
+        </div>
+        <div class="card">
+          <h3>3. Explain</h3>
+          <p>Every spike or dip comes with a short explanation and links to the evidence table and chart.</p>
+        </div>
+        <div class="card">
+          <h3>4. Act</h3>
+          <p>Send alerts, create tasks, or trigger webhooks when thresholds are breached or trends shift.</p>
+        </div>
+      </div>
+      <div class="highlight card">
+        <h3>Integrations</h3>
+        <p>Warehouses: BigQuery, Snowflake, Redshift · Sources: Postgres, MySQL, Google Sheets · Destinations: Slack, Email, Webhooks.</p>
+      </div>
+    </section>
+
+    <!-- USE CASES -->
+    <section class="container" id="usecases">
+      <h2>Use cases</h2>
+      <div class="cards three">
+        <article class="card">
+          <h3>Revenue & growth</h3>
+          <p>Forecast MRR, churn, and CAC. Get drivers by segment to focus spend where it works.</p>
+        </article>
+        <article class="card">
+          <h3>Ops & supply</h3>
+          <p>Predict demand, flag bottlenecks, and optimize inventory with service-level guardrails.</p>
+        </article>
+        <article class="card">
+          <h3>Product analytics</h3>
+          <p>Spot cohort regressions, feature adoption issues, and UX anomalies before they snowball.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="container" id="pricing">
+      <h2>Pricing</h2>
+      <div class="toggle">
+        <span>Monthly</span>
+        <label class="switch">
+          <input type="checkbox" id="billingToggle" />
+          <span class="slider"></span>
+        </label>
+        <span>Yearly <em class="save">(save 15%)</em></span>
+      </div>
+      <div class="cards three" id="plans">
+        <article class="card plan" data-month="0" data-year="0">
+          <h3>Starter</h3>
+          <p class="price"><span class="amount" data-m="0" data-y="0">Free</span></p>
+          <ul class="list">
+            <li>1 data source</li>
+            <li>Core insights & dashboards</li>
+            <li>Email alerts</li>
+          </ul>
+          <a class="btn primary" href="#contact">Get started</a>
+        </article>
+        <article class="card plan" data-month="79" data-year="67">
+          <h3>Growth</h3>
+          <p class="price">€<span class="amount" data-m="79" data-y="67">79</span> / user</p>
+          <ul class="list">
+            <li>All Starter features</li>
+            <li>Up to 5 sources & 50 KPIs</li>
+            <li>Slack alerts & webhooks</li>
+          </ul>
+          <a class="btn primary" href="#contact">Start trial</a>
+        </article>
+        <article class="card plan" data-month="Contact" data-year="Contact">
+          <h3>Enterprise</h3>
+          <p class="price"><span class="amount" data-m="Contact" data-y="Contact">Contact us</span></p>
+          <ul class="list">
+            <li>Unlimited sources</li>
+            <li>SSO/SAML, audit logs</li>
+            <li>Premium support & SLA</li>
+          </ul>
+          <a class="btn secondary" href="#contact">Talk to sales</a>
+        </article>
+      </div>
+      <p class="muted small">Prices shown exclude tax. Fair use limits apply.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="container" id="faq">
+      <h2>FAQ</h2>
+      <div class="accordion">
+        <details>
+          <summary>Where is my data stored?</summary>
+          <p>EU or US regions. Encryption at rest and in transit. Optional on-prem connector.</p>
+        </details>
+        <details>
+          <summary>Can I bring my own models?</summary>
+          <p>Yes — BYOM via notebooks or API. We’ll handle versioning and monitoring.</p>
+        </details>
+        <details>
+          <summary>How long does setup take?</summary>
+          <p>Typical teams connect data and see first insights within a day.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container contact" id="contact">
+      <h2>Book a demo</h2>
+      <div class="contact-grid">
+        <div class="card">
+          <p><strong>Email:</strong> <a href="mailto:hello@example.com">kpunitha005@gmail.com</a></p>
+          <p><strong>Location:</strong> Paris • Remote-friendly</p>
+          <!-- <p class="muted small">Prefer chat? We can add Slack/WhatsApp links here.</p> -->
+        </div>
+        <form class="card" name="contact"
+         onsubmit="this.innerHTML='<p style=&quot;font-size:1.2rem; text-align:center;&quot;>✅ Thank you! We’ll get in touch soon.</p>'; return false;"
+         aria-label="Contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+          <label for="email">Work email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required />
+          <label for="message">What would you like to achieve?</label>
+          <textarea id="message" name="message" rows="4" placeholder="e.g., MRR forecasting, anomaly detection, self-serve dashboards"></textarea>
+          <button class="btn primary" type="submit" id="sendBtn">Request demo</button>
+          <!-- <p class="muted small">Demo form — wire it to Formspree/Netlify or your backend.</p> -->
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted">© <span id="year"></span> Datara. All rights reserved. · <a href="#!" class="muted">Privacy</a> · <a href="#!" class="muted">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
